@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+</head>
+<body>
+     
+    <input type="text" class="inp" /> <br> <br>
+
+    <input type="text" class="inp" /> <br> <br>
+
+    <input type="text" class="inp" /> <br> <br>
+
+    <input type="text" class="inp" /> <br> <br>
+
+    <button id="btn">Submit</button>
+
+    <script>
+
+        // document.getElementsByClassName("btn")[0].onclick =  function(){
+
+        //     let a = document.getElementsByClassName("inp");
+
+        //     for(let i in a){
+
+        //         console.log(a[i].value)
+        //     }
+        // } 
+            
+            document.querySelector("#btn").onclick = function(){
+            let a = document.querySelectorAll("input");
+            console.log(a)
+          }
+
+    </script>
+</body>
+</html>
